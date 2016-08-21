@@ -1,0 +1,235 @@
+<?php
+
+use Illuminate\Database\Seeder;
+
+class UnitsTableSeeder extends Seeder
+{
+
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {
+        DB::table('unit')->insert([
+            [
+                'code'              => 'A/601/0443',
+                'name'              => 'Web Server Scripting',
+                'credit_value'      => 10,
+                'glh'               => 60,
+                'level'             => 3,
+                'subject_sector_id' => 6,
+            ],
+
+            [
+                'code'              => 'A/601/7280',
+                'name'              => 'IT Systems Troubleshooting and Repair',
+                'credit_value'      => 10,
+                'glh'               => 60,
+                'level'             => 3,
+                'subject_sector_id' => 6,
+            ],
+            [
+                'code'              => 'A/601/7313',
+                'name'              => 'e-Commerce',
+                'credit_value'      => 10,
+                'glh'               => 60,
+                'level'             => 3,
+                'subject_sector_id' => 6,
+            ],
+            [
+                'code'              => 'A/601/7327',
+                'name'              => 'Controlling Systems Using IT',
+                'credit_value'      => 10,
+                'glh'               => 60,
+                'level'             => 3,
+                'subject_sector_id' => 6,
+            ],
+            [
+                'code'              => 'F/601/7233',
+                'name'              => 'Communication and Employability Skills for IT',
+                'credit_value'      => 10,
+                'glh'               => 60,
+                'level'             => 3,
+                'subject_sector_id' => 6,
+            ],
+            [
+                'code'              => 'F/601/7264',
+                'name'              => 'Communication Technologies',
+                'credit_value'      => 10,
+                'glh'               => 60,
+                'level'             => 3,
+                'subject_sector_id' => 6,
+            ],
+            [
+                'code'              => 'F/601/7278',
+                'name'              => 'Systems Analysis and Design',
+                'credit_value'      => 10,
+                'glh'               => 60,
+                'level'             => 3,
+                'subject_sector_id' => 6,
+            ],
+            [
+                'code'              => 'F/601/7281',
+                'name'              => 'Event Driven Programming',
+                'credit_value'      => 10,
+                'glh'               => 60,
+                'level'             => 3,
+                'subject_sector_id' => 6,
+            ],
+            [
+                'code'              => 'H/601/7256',
+                'name'              => 'Information Systems',
+                'credit_value'      => 10,
+                'glh'               => 60,
+                'level'             => 3,
+                'subject_sector_id' => 6,
+            ],
+            [
+                'code'              => 'J/504/0471',
+                'name'              => 'Analysing Media Products and Audiences',
+                'credit_value'      => 10,
+                'glh'               => 60,
+                'level'             => 3,
+                'subject_sector_id' => '4',
+            ],
+            [
+                'code'              => 'J/601/2003',
+                'name'              => 'Computer Systems Architecture',
+                'credit_value'      => 10,
+                'glh'               => 60,
+                'level'             => 3,
+                'subject_sector_id' => 6,
+            ],
+            [
+                'code'              => 'J/601/6617',
+                'name'              => 'Database Design',
+                'credit_value'      => 10,
+                'glh'               => 60,
+                'level'             => 3,
+                'subject_sector_id' => 6,
+            ],
+            [
+                'code'              => 'J/601/7279',
+                'name'              => 'IT Technical Support',
+                'credit_value'      => 10,
+                'glh'               => 60,
+                'level'             => 3,
+                'subject_sector_id' => 6,
+            ],
+            [
+                'code'              => 'J/601/7282',
+                'name'              => 'Object Oriented Programming',
+                'credit_value'      => 10,
+                'glh'               => 60,
+                'level'             => 3,
+                'subject_sector_id' => 6,
+            ],
+            [
+                'code'              => 'J/601/7329',
+                'name'              => 'Maintaining Computer Systems',
+                'credit_value'      => 10,
+                'glh'               => 60,
+                'level'             => 3,
+                'subject_sector_id' => 6,
+            ],
+            [
+                'code'              => 'J/601/7332',
+                'name'              => 'Networked Systems Security',
+                'credit_value'      => 10,
+                'glh'               => 60,
+                'level'             => 3,
+                'subject_sector_id' => 6,
+            ],
+            [
+                'code'              => 'K/601/7663',
+                'name'              => 'Managing Networks',
+                'credit_value'      => 10,
+                'glh'               => 60,
+                'level'             => 3,
+                'subject_sector_id' => 6,
+            ],
+            [
+                'code'              => 'L/601/6585',
+                'name'              => 'Software Design and Development',
+                'credit_value'      => 10,
+                'glh'               => 60,
+                'level'             => 3,
+                'subject_sector_id' => 6,
+            ],
+            [
+                'code'              => 'L/601/7283',
+                'name'              => 'Procedural Programming',
+                'credit_value'      => 10,
+                'glh'               => 60,
+                'level'             => 3,
+                'subject_sector_id' => 6,
+            ],
+            [
+                'code'              => 'L/601/7655',
+                'name'              => 'Mathematics for IT Practitioners',
+                'credit_value'      => 10,
+                'glh'               => 60,
+                'level'             => 3,
+                'subject_sector_id' => 6,
+            ],
+            [
+                'code'              => 'M/601/6630',
+                'name'              => 'Digital Graphics',
+                'credit_value'      => 10,
+                'glh'               => 60,
+                'level'             => 3,
+                'subject_sector_id' => 6,
+            ],
+            [
+                'code'              => 'M/601/7261',
+                'name'              => 'Computer Systems',
+                'credit_value'      => 10,
+                'glh'               => 60,
+                'level'             => 3,
+                'subject_sector_id' => 6,
+            ],
+            [
+                'code'              => 'R/601/7320',
+                'name'              => 'Computer Networks',
+                'credit_value'      => 10,
+                'glh'               => 60,
+                'level'             => 3,
+                'subject_sector_id' => 6,
+            ],
+            [
+                'code'              => 'T/601/7312',
+                'name'              => 'Organisational Systems Security',
+                'credit_value'      => 10,
+                'glh'               => 60,
+                'level'             => 3,
+                'subject_sector_id' => 6,
+            ],
+            [
+                'code'              => 'T/601/7326',
+                'name'              => 'Human Computer Interaction',
+                'credit_value'      => 10,
+                'glh'               => 60,
+                'level'             => 3,
+                'subject_sector_id' => 6,
+            ],
+            [
+                'code'              => 'Y/601/6623',
+                'name'              => 'Website Production',
+                'credit_value'      => 10,
+                'glh'               => 60,
+                'level'             => 3,
+                'subject_sector_id' => 6,
+            ],
+            [
+                'code'              => 'Y/601/7321',
+                'name'              => 'Project Planning with IT',
+                'credit_value'      => 10,
+                'glh'               => 60,
+                'level'             => 3,
+                'subject_sector_id' => 6,
+            ],
+        ]);
+    }
+}
