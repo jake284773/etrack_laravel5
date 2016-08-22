@@ -157,6 +157,7 @@ return [
         App\Providers\RouteServiceProvider::class,
 
         Laracasts\Flash\FlashServiceProvider::class,
+        AdamWathan\BootForms\BootFormsServiceProvider::class,
 
     ],
 
@@ -203,6 +204,8 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+
+        'BootForm' => AdamWathan\BootForms\Facades\BootForm::class,
 
     ],
 
