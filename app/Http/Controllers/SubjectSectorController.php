@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\SubjectSector;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
@@ -15,7 +16,7 @@ class SubjectSectorController extends Controller
      */
     public function index()
     {
-        //
+        return view('subject_sector.index', ['subjectSectors' => SubjectSector::all()]);
     }
 
     /**
