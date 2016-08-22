@@ -12,7 +12,7 @@ class UnitsTableSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('unit')->insert([
+        DB::table('units')->insert([
             [
                 'code'              => 'A/601/0443',
                 'name'              => 'Web Server Scripting',
