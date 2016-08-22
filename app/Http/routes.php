@@ -14,3 +14,5 @@
 Route::get('/', ['as' => 'index',  function () {
     return view('index');
 }]);
+
+Route::resource('subject_sector', 'SubjectSectorController');
