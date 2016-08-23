@@ -1,10 +1,8 @@
-@extends('layouts.master')
+@extends('layouts.simple')
 
 @section('title', 'Subject sectors')
 
-@section('content')
-    <h1 class="page-header">Subject sectors</h1>
-
+@section('page')
     <table class="table">
         <thead>
         <tr>
@@ -23,5 +21,5 @@
         </tbody>
     </table>
 
-    <a href="{{ route('subject_sector.create') }}" class="btn btn-primary">Create new</a>
+    <a href="{{ route('subject_sector.create') }}" class="btn btn-primary">New</a>
 @endsection
