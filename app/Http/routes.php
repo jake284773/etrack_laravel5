@@ -16,3 +16,4 @@ Route::get('/', ['as' => 'index',  function () {
 }]);
 
 Route::resource('subject_sector', 'SubjectSectorController');
+Route::resource('qualification', 'QualificationController');
