@@ -6438,6 +6438,7 @@ form .field_with_errors label {
 .navbar .container-fluid .navbar-brand {
   background: url("../img/logo.png") 0 0.47em no-repeat;
   background-size: 35px;
+  color: #fff;
   font-family: "GillSans", "Gill Sans MT", "Gill Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 20px;
   margin-left: 0;
