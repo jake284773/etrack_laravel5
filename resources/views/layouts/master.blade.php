@@ -11,9 +11,9 @@
 
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 </head>
-<body>
-<header class="navbar navbar-default navbar-static-top add-bottom-margin" role="banner">
-    <div class="container-fluid">
+<body class="environment-development">
+<header class="navbar navbar-inverse navbar-default navbar-static-top environment-indicator add-bottom-margin" role="banner">
+    <div class="container">
         <div class="navbar-header">
             <a href="#" class="navbar-toggle">
                 <span class="sr-only">Toggle navigation</span>
@@ -22,6 +22,7 @@
                 <span class="icon-bar"></span>
             </a>
             <a href="{{ route('index') }}" class="navbar-brand">eTrack</a>
+            <div class="environment-label">Development</div>
         </div>
         <nav role="navigation" class="collapse-navbar-collapse">
             <ul class="nav navbar-nav">
@@ -39,7 +40,7 @@
     </div>
 </header>
 
-<section class="container-fluid">
+<section class="container">
     <main role="main">
         @include('flash::message')
 
